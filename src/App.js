@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <TonConnectUIProvider manifestUrl="http://localhost:3001/tonconnect-manifest.json">
+    <TonConnectUIProvider manifestUrl="https://jubilant-goggles-wrvvj4jg47w7fv4j9-3000.app.github.dev/tonconnect-manifest.json">
       <div className="App">
         <header className="bg-gray-800 p-4 flex justify-between items-center">
           <div className="text-white">
