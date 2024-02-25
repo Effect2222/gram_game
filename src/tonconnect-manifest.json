@@ -1,0 +1,30 @@
+{
+    "name": "MyTonApp",
+    "version": "1.0.0",
+    "description": "Description of your TON app",
+    "icons": [
+      {
+        "src": "/path/to/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "permissions": ["tonclient"],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "tonclient": {
+      "networks": {
+        "mainnet": {
+          "server_address": "https://main.ton.dev",
+          "wallet_address": "0:YourWalletAddress"
+        },
+        "testnet": {
+          "server_address": "https://testnet.ton.dev",
+          "wallet_address": "0:YourTestnetWalletAddress"
+        }
+      }
+    }
+  }
+  
